@@ -1,0 +1,16 @@
+# Dépendances
+/vendor/
+
+# Configuration et secrets locaux
+/.env
+/.env.*
+/db.local.php
+
+# Données et journaux locaux
+/uploads/*
+!/uploads/.gitkeep
+*.log
+
+# Système
+.DS_Store
+Thumbs.db
